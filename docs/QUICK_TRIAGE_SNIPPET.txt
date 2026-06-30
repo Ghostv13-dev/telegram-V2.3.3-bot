@@ -1,0 +1,7 @@
+🚨 *STOS PR Triage Cheat Sheet* 🚨
+Before approving any PR, verify it passes the *STOS Triage Rule*:
+
+❓ *Does this PR touch external I/O before the Step 9 commit, alter the ExecutionPlan contract, branch L2 pipeline logic based on domain state, or mix entity/state KV namespaces?*
+
+🛑 *YES* = P0/P1 Violation → Block Merge immediately. Requires fix or approved ADR.
+✅ *NO* = Architectural boundaries respected. Proceed to standard review.

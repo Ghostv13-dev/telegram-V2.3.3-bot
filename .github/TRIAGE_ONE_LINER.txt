@@ -1,0 +1,1 @@
+STOS Triage One‑Liner: Does this PR touch external I/O before Step 9, change the ExecutionPlan contract, or mix entity/state KV namespaces? If yes → block and require ADR.
